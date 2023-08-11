@@ -1,0 +1,11 @@
+{
+  "name": "uqoud-backend",
+  "version": "1.0.0",
+  "description": "Uqoud Backend APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
