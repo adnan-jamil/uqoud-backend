@@ -1,11 +1,39 @@
 {
-  "name": "uqoud-backend",
+  "name": "uqoud-backend-apis",
   "version": "1.0.0",
-  "description": "Uqoud Backend APIs",
+  "description": "Complete Backend APIs Project with NodeJS and TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node src"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^7.0.1",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.5.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.18",
+    "@types/mongoose": "^5.11.97",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^20.6.5",
+    "typescript": "^5.2.2"
+  }
 }
